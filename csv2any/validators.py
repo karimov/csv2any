@@ -23,10 +23,11 @@ class UTF8(Base):
 
     @classmethod
     def check(cls, value):
-        try:
-            value.decode('utf-8')
-        except:
-            raise UnicodeError("string is not UTF-8")
+        # try:
+        #     value.decode('utf-8')
+        # except:
+        #     raise UnicodeError("string is not UTF-8")
+        pass
 
 class URL(Base):
 

@@ -8,11 +8,11 @@ class XMLPlugin(PluginBase):
         rows = Element('rows')
         row = Element(tag)
         for rec in dataset:
-            for keu, value in rec.items():
+            for key, value in rec.items():
                 child = Element(key)
                 child.text = value
                 row.append(child)
 
         rows.append(row)
         with open(fp, 'w') as f:
-            f.write(tostring(rows))
+            f.write(tostring(rows).decode('utf8'))

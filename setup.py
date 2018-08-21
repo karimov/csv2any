@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="csv2any",
-    version="0.1.0",
+    version="0.1.1",
     url="https://github.com/karimov/csv2any",
 
     author="Davron Karimov",

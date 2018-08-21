@@ -1,3 +1,3 @@
 
-from . import _json as json
-from . import _xml as xml
+from csv2any.plugins import _json
+from csv2any.plugins import _xml
