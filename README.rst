@@ -15,7 +15,7 @@ Usage
 -----
 ::
 	$ csv2any --help
-::
+
 Installation
 ------------
 ::
@@ -24,7 +24,7 @@ Installation
 	or
 
 	python setup.py install --user
-::
+
 Requirements
 ^^^^^^^^^^^^
 
