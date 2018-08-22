@@ -13,17 +13,23 @@ A tool that converts the data from one format to other formats.
 
 Usage
 -----
-::
+
+.. code-block:: bash
+
 	$ csv2any --help
 
 Installation
 ------------
-::
-	pip install git+https://github.com/karimov/csv2any.git
+
+.. code-block:: bash
+
+	$ pip install git+https://github.com/karimov/csv2any.git
 
 	or
 
-	python setup.py install --user
+.. code-block:: bash
+
+	$ python setup.py install --user
 
 Requirements
 ^^^^^^^^^^^^
