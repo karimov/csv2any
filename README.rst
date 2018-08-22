@@ -13,10 +13,18 @@ A tool that converts the data from one format to other formats.
 
 Usage
 -----
-
+::
+	$ csv2any --help
+::
 Installation
 ------------
+::
+	pip install git+https://github.com/karimov/csv2any.git
 
+	or
+
+	python setup.py install --user
+::
 Requirements
 ^^^^^^^^^^^^
 
