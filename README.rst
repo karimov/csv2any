@@ -25,7 +25,7 @@ Installation
 
 	$ pip install git+https://github.com/karimov/csv2any.git
 
-	or
+or
 
 .. code-block:: bash
 
